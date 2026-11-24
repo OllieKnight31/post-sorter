@@ -1,0 +1,43 @@
+# Your personal settings for one project folder.
+# "cli.py <project> --init" copies this file to <project>/config.yaml.
+# Everything here is optional. Remove the "#" in front of a line to use it.
+# All available settings and their defaults: config/defaults.yaml in the skill.
+
+output:
+  destination: local      # local = XLSX and CSV on your Mac. google or both = also a Google Sheet
+  currency: GBP           # label next to totals. EUR also switches on SEPA payment QR codes
+  # language: en          # en or de
+
+# Only needed if post for several people is mixed in the same pile.
+# persons:
+#   known_names: ["Sam", "Jo"]
+#   address_surnames: ["Example"]
+#   aliases:
+#     Sam: ["Samuel Example", "S. Example"]
+#   accounts:
+#     Sam:
+#       - {iban: "GB00XXXX00000000000000", label: "main"}   # label must be part of the CSV file name
+
+# Only needed if your bank CSV is not recognised automatically.
+# bank:
+#   delimiter: ","
+#   date_format: "%d/%m/%Y"
+#   columns:
+#     date: "Date"
+#     details: "Description"
+#     payee: "Name"
+#     debit: "Money out"
+#     credit: "Money in"
+#     # or one signed column instead of debit and credit (negative = money out):
+#     # amount: "Amount"
+
+# Senders that must always rank at least "Critical".
+# priority:
+#   critical_creditors: ["my landlord ltd"]
+
+# Change these if Google retires a model.
+# ocr:
+#   model: gemini-3.6-flash
+#   multi_image_model: gemini-3.8-flash
+#   verification_model: gemini-3.6-flash
+#   fallback_model: gemini-3.8-flash

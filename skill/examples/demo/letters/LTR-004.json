@@ -1,0 +1,40 @@
+{
+ "letter_id": "LTR-004",
+ "doc_group": "doc-004",
+ "pages": [
+  {
+   "page_id": "doc-004-page-01",
+   "page_num": 1,
+   "role": "first_page"
+  }
+ ],
+ "creditor": {
+  "name": "Tax Office"
+ },
+ "person": "Sam",
+ "document_type": "mahnung_3",
+ "eskalation": 3,
+ "identifiers": [
+  "TX-2026-330918"
+ ],
+ "primary_reference": "TX-2026-330918",
+ "amounts": {
+  "original": 940.5,
+  "current": 940.5
+ },
+ "dates": {
+  "document_date": "2026-10-22",
+  "due_date": "2026-10-29"
+ },
+ "payment_info": {
+  "recipient_name": "Tax Office",
+  "reference": "TX-2026-330918"
+ },
+ "urgency_signals": [
+  "Final notice"
+ ],
+ "confidence": {
+  "overall": 0.96
+ },
+ "flags": []
+}

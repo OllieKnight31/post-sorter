@@ -1,0 +1,38 @@
+{
+ "letter_id": "LTR-001",
+ "doc_group": "doc-001",
+ "pages": [
+  {
+   "page_id": "doc-001-page-01",
+   "page_num": 1,
+   "role": "first_page"
+  }
+ ],
+ "creditor": {
+  "name": "Energy Supplier Ltd"
+ },
+ "person": "Sam",
+ "document_type": "rechnung",
+ "eskalation": 0,
+ "identifiers": [
+  "ES-2026-448812"
+ ],
+ "primary_reference": "ES-2026-448812",
+ "amounts": {
+  "original": 184.2,
+  "current": 184.2
+ },
+ "dates": {
+  "document_date": "2026-09-14",
+  "due_date": "2026-09-28"
+ },
+ "payment_info": {
+  "recipient_name": "Energy Supplier Ltd",
+  "reference": "ES-2026-448812"
+ },
+ "urgency_signals": [],
+ "confidence": {
+  "overall": 0.96
+ },
+ "flags": []
+}

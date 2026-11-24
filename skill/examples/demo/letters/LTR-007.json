@@ -1,0 +1,39 @@
+{
+ "letter_id": "LTR-007",
+ "doc_group": "doc-007",
+ "pages": [
+  {
+   "page_id": "doc-007-page-01",
+   "page_num": 1,
+   "role": "first_page"
+  }
+ ],
+ "creditor": {
+  "name": "Home Insurer Ltd"
+ },
+ "person": "Sam",
+ "document_type": "rechnung",
+ "eskalation": 0,
+ "identifiers": [
+  "HI-2026-264407"
+ ],
+ "primary_reference": "HI-2026-264407",
+ "amounts": {
+  "original": 212.75,
+  "current": 212.75
+ },
+ "dates": {
+  "document_date": "2026-10-27",
+  "due_date": "2026-12-01"
+ },
+ "payment_info": {
+  "recipient_name": "Home Insurer Ltd",
+  "reference": "HI-2026-264407",
+  "iban": "DE89370400440532013000"
+ },
+ "urgency_signals": [],
+ "confidence": {
+  "overall": 0.96
+ },
+ "flags": []
+}

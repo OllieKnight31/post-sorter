@@ -1,0 +1,40 @@
+{
+ "letter_id": "LTR-003",
+ "doc_group": "doc-003",
+ "pages": [
+  {
+   "page_id": "doc-003-page-01",
+   "page_num": 1,
+   "role": "first_page"
+  }
+ ],
+ "creditor": {
+  "name": "County Court"
+ },
+ "person": "Sam",
+ "document_type": "mahnbescheid",
+ "eskalation": 4,
+ "identifiers": [
+  "CC-2026-771204"
+ ],
+ "primary_reference": "CC-2026-771204",
+ "amounts": {
+  "original": 612.0,
+  "current": 612.0
+ },
+ "dates": {
+  "document_date": "2026-10-20",
+  "due_date": "2026-11-03"
+ },
+ "payment_info": {
+  "recipient_name": "County Court",
+  "reference": "CC-2026-771204"
+ },
+ "urgency_signals": [
+  "Court deadline"
+ ],
+ "confidence": {
+  "overall": 0.96
+ },
+ "flags": []
+}

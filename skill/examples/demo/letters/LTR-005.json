@@ -1,0 +1,40 @@
+{
+ "letter_id": "LTR-005",
+ "doc_group": "doc-005",
+ "pages": [
+  {
+   "page_id": "doc-005-page-01",
+   "page_num": 1,
+   "role": "first_page"
+  }
+ ],
+ "creditor": {
+  "name": "Water Company Ltd"
+ },
+ "person": "Sam",
+ "document_type": "mahnung_2",
+ "eskalation": 2,
+ "identifiers": [
+  "WC-2026-118276"
+ ],
+ "primary_reference": "WC-2026-118276",
+ "amounts": {
+  "original": 96.4,
+  "current": 96.4
+ },
+ "dates": {
+  "document_date": "2026-10-18",
+  "due_date": "2026-11-01"
+ },
+ "payment_info": {
+  "recipient_name": "Water Company Ltd",
+  "reference": "WC-2026-118276"
+ },
+ "urgency_signals": [
+  "Second reminder"
+ ],
+ "confidence": {
+  "overall": 0.96
+ },
+ "flags": []
+}

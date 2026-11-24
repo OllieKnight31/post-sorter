@@ -1,0 +1,5 @@
+# Only needed if you want the result written to a Google Sheet
+# (output.destination: google or both). Not needed for the local workbook.
+google-api-python-client>=2.0
+google-auth-httplib2>=0.2
+google-auth-oauthlib>=1.0

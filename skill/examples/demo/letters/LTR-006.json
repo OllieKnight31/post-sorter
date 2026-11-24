@@ -1,0 +1,38 @@
+{
+ "letter_id": "LTR-006",
+ "doc_group": "doc-006",
+ "pages": [
+  {
+   "page_id": "doc-006-page-01",
+   "page_num": 1,
+   "role": "first_page"
+  }
+ ],
+ "creditor": {
+  "name": "Phone Provider Ltd"
+ },
+ "person": "Sam",
+ "document_type": "rechnung",
+ "eskalation": 0,
+ "identifiers": [
+  "PP-2026-905513"
+ ],
+ "primary_reference": "PP-2026-905513",
+ "amounts": {
+  "original": 38.0,
+  "current": 38.0
+ },
+ "dates": {
+  "document_date": "2026-10-25",
+  "due_date": "2026-11-24"
+ },
+ "payment_info": {
+  "recipient_name": "Phone Provider Ltd",
+  "reference": "PP-2026-905513"
+ },
+ "urgency_signals": [],
+ "confidence": {
+  "overall": 0.96
+ },
+ "flags": []
+}
